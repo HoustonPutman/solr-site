@@ -133,6 +133,11 @@ button.white:hover {
   height: 90px;
 }
 
+.header-section.operator, .top-bar.operator, .top-bar.operator.title-area, .top-bar.operator.name, .top-bar.operator.top-bar-section,
+.top-bar.operator ul li, .top-bar.operator a, .top-bar.operator li:not(.has-form) a:not(.button) {
+  background: green;
+}
+
 .top-bar .name .logo {
   height: 100%;
   position:relative;
